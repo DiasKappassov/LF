@@ -1,0 +1,285 @@
+/* Normal desktop :1200px. */
+
+@media (min-height: 600px) and (max-height: 780px) {
+
+    .transparent-img.tt-3 {
+        max-height: 475px;
+    }
+    .transparent-img.tt-1 {
+        max-width: 470px;
+        width: 100%;
+        max-height: 420px;
+    }
+    .transparent-img.tt-2 {
+        max-width: 435px;
+        width: 100%;
+        max-height: 424px;
+    }
+    .door-img img {
+        max-width: 225px;
+    }
+ 
+}
+
+
+
+@media (min-height: 781px) and (max-height: 1050px) {
+    .transparent-img.tt-3 {
+        max-height: 445px;
+    }
+    .transparent-img.tt-1 {
+        max-width: 760px;
+        width: 100%;
+        max-height: 515px;
+    }
+    .door-img img {
+        max-width: 310px;
+    }
+    .transparent-img.tt-2 {
+        max-width: 745px;
+        width: 100%;
+        max-height: 525px;
+    }
+    .door-img {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+ 
+}
+
+
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+    .door-img img {
+        max-width: 255px;
+    }
+    .transparent-img.tt-3 {
+        max-height: 360px;
+        object-fit: cover;
+        object-position: top;
+    }
+    .transparent-img.tt-2 {
+        max-width: 360px;
+    }
+    .transparent-img.tt-1 {
+        max-width: 440px;
+    }
+    .viewport-content-box {
+        padding: 35px 15px;
+        padding-bottom: 145px;
+    }
+
+}
+
+
+
+
+
+
+@media (min-width: 1366px) and (max-width: 1700px) {
+    .door-img img {
+        max-width: 280px;
+        margin-bottom: 15px;
+    }
+    .transparent-img.tt-3 {
+        max-height: 470px;
+        object-fit: cover;
+        object-position: top;
+    }
+    .transparent-img.tt-2 {
+        max-width: 430px;
+    }
+    .transparent-img.tt-1 {
+        max-width: 475px;
+    }
+    .viewport-content-box {
+        padding: 35px 15px;
+        padding-bottom: 230px;
+    }
+
+}
+
+@media (min-width: 1701px) and (max-width: 1850px) {
+
+    .transparent-img.tt-2 {
+        max-width: 600px;
+    }
+    .transparent-img.tt-1 {
+        max-width: 650px;
+    }
+
+ }
+
+
+/* Normal desktop :992px. */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .door-img img {
+        max-width: 255px;
+    }
+    .transparent-img.tt-3 {
+        max-height: 320px;
+        object-fit: cover;
+        object-position: top;
+    }
+    .transparent-img.tt-2 {
+        max-width: 288px;
+    }
+    .transparent-img.tt-1 {
+        max-width: 350px;
+    }
+    .viewport-content-box {
+        padding: 35px 15px;
+        padding-bottom: 145px;
+    }
+    .viewport-title {
+        letter-spacing: 4px;
+    }
+
+}
+
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .door-img img {
+        max-width: 255px;
+    }
+    .transparent-img.tt-3 {
+        max-height: 320px;
+        object-fit: cover;
+        object-position: top;
+    }
+    .transparent-img.tt-2 {
+        max-width: 265px;
+    }
+    .transparent-img.tt-1 {
+        max-width: 312px;
+    }
+    .viewport-content-box {
+        padding: 35px 15px;
+        padding-bottom: 145px;
+    }
+    .viewport-title {
+        letter-spacing: 4px;
+        max-width: 410px;
+        line-height: 1.5;
+    }
+
+}
+
+ 
+/* small mobile :320px. */
+@media (min-width: 320px) and (max-width: 767.98px) {
+    .door-img img {
+        max-width: 130px;
+    }
+    .transparent-img.tt-3 {
+        max-height: 255px;
+        object-fit: cover;
+        object-position: top;
+    }
+    .transparent-img.tt-2 {
+        max-width: 131px;
+        top: 88px;
+    }
+    .transparent-img.tt-1 {
+        max-width: 158px;
+        top: 85px;
+    }
+    .viewport-content-box {
+        padding: 30px 15px;
+        padding-bottom: 165px;
+    }
+    .viewport-title {
+        letter-spacing: 4px;
+        max-width: 410px;
+        line-height: 1.4;
+        font-size: 14px;
+    }
+    .door-img {
+        margin-top: 75px;
+    }
+    .main-menu li a {
+        font-size: 14px;
+        letter-spacing: 4px;
+    }
+    .about-m-content-wrapper p {
+        margin-bottom: 24px;
+        font-size: 15px;
+    }
+    .pf-links a {
+        font-size: 13px;
+    }
+    .fund-m-content-wrapper p {
+        font-size: 15px;
+    }
+ 
+}
+ 
+
+@media (min-height: 580px) and (max-height: 720px) and (min-width: 1366px) and (max-width: 1920px) {
+    .transparent-img.tt-3 {
+        max-height: 375px;
+        object-position: center top;
+    }
+    .transparent-img.tt-1 {
+        max-width: 575px;
+    }
+    .transparent-img.tt-2 {
+        max-width: 470px;
+    }
+    .transparent-img.tt-1 {
+        max-width: 405px;
+    }
+    .door-img img {
+        max-width: 250px;
+        margin-bottom: 15px;
+    }
+}
+
+@media (min-height: 580px) and (max-height: 720px) and (min-width: 1700px) and (max-width: 1920px) {
+    .transparent-img.tt-3 {
+        max-height: 375px;
+        object-position: center 60px;
+    }
+
+ }
+
+
+ @media (min-height: 600px) and (max-height: 680px) and (min-width: 1360px) and (max-width: 1920px) {
+    .transparent-img.tt-3 {
+        max-height: 430px;
+        object-fit: cover;
+        object-position: top;
+    }
+
+ }
+
+ @media (min-height: 600px) and (max-height: 680px) and (min-width: 1400px) and (max-width: 1920px) {
+    .transparent-img.tt-3 {
+        max-height: 460px;
+        object-fit: cover;
+        object-position: top;
+    }
+
+ }
+
+ @media (min-height: 600px) and (max-height: 680px) and (min-width: 1500px) and (max-width: 1920px) {
+    .transparent-img.tt-3 {
+        max-height: 470px;
+        object-fit: cover;
+        object-position: top;
+    }
+
+ }
+ @media (min-height: 600px) and (max-height: 680px) and (min-width: 1800px) and (max-width: 1920px) {
+    .transparent-img.tt-3 {
+        max-height: 520px;
+        object-fit: cover;
+        object-position: top;
+    }
+
+ }
+
+
+
+
